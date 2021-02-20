@@ -34,10 +34,10 @@ print("The weekday of my birthdate is", birthdate_weekday)
 # Exercise 2 f: Find and print how many days are left 
 # 				till your upcoming birthday
 
-next_birthdate = my_birthdate + datetime.timedelta(days = 365*24, hours = 24*6)
 today = datetime.date.today()
-till_birthday = next_birthdate - today
-print("Days until my next birthday: ", till_birthday)
+next_birthday = datetime.date(2021, 10, 13)
+till_bday = next_birthday - today
+print("Days until my next birthday: ", till_bday)
 
 # Exercise 3: Print the calendar of May 2017 
 may_2017_calendar = calendar.month(2017, 5)
